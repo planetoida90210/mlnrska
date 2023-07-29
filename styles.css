@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #CBC7BE; 
+    overflow: hidden;
+}
+
+.logo {
+    width: 90vw;
+    height: auto;
+}
+
+/* Dla tabletów */
+@media screen and (min-width: 600px) {
+    .logo {
+        width: 75vw;
+    }
+}
+
+/* Dla małych ekranów laptopów */
+@media screen and (min-width: 768px) {
+    .logo {
+        width: 60vw;
+    }
+}
+
+/* Dla większych ekranów laptopów i desktopów */
+@media screen and (min-width: 1024px) {
+    .logo {
+        width: 50vw;
+    }
+}
+
+/* Dla bardzo dużych ekranów */
+@media screen and (min-width: 1440px) {
+    .logo {
+        width: 40vw;
+    }
+}
